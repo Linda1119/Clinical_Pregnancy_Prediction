@@ -32,4 +32,6 @@ Optuna 기반 하이퍼파라미터 최적화와 Stacking Ensemble 구조를 적
 
 단일 모델 한계를 보완하기 위해 Blended Ensemble 구조를 설계하고 최종 Validation ROC-AUC 0.7387까지 성능을 개선
 
+Optuna 기반 자동 하이퍼파라미터 탐색을 통해 LightGBM 모델을 최적화하여 Validation ROC-AUC 0.7394를 달성
+
 Aimers20이 검증 성능이 0.7394 나오지만 실제 성능은 0.7410로 여태까지 제일 높음
