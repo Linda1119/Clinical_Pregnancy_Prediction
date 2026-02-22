@@ -29,4 +29,5 @@
 
 # 모델 개선
 Optuna 기반 하이퍼파라미터 최적화와 Stacking Ensemble 구조를 적용하여 Validation ROC-AUC를 0.7353까지 개선
-Aimers20이 검증 성능이 0.7394 나오지만 실제 성능은 0.7410임
+단일 모델 한계를 보완하기 위해 Blended Ensemble 구조를 설계하고 최종 Validation ROC-AUC 0.7387까지 성능을 개선
+Aimers20이 검증 성능이 0.7394 나오지만 실제 성능은 0.7410로 여태까지 제일 높음
